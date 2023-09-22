@@ -1,0 +1,42 @@
+ul.menu_icon {
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+ul.menu_icon li:nth-child(1) a {
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    text-decoration: none;
+    background: #0FC500;
+    display: inline-block;
+    border-radius: 100%;
+    filter: drop-shadow(0px 0px 10px rgba(126, 126, 126, 0.10));
+}
+
+ul.menu_icon li:nth-child(2) button {
+    position: relative;
+    border: 0;
+    background: transparent;
+}
+
+ul.menu_icon li:nth-child(2) button span {
+    position: absolute;
+    top: -6px;
+    right: -12px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 400;
+    display: inline-block;
+    border-radius: 100%;
+    background: #357EE8;
+}
